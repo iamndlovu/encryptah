@@ -1,0 +1,11 @@
+{
+  "name": "encryptah",
+  "version": "1.0.0",
+  "description": "app used to encrypt and decrypt secrete messages within an organisation",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iamndlovu",
+  "license": "MIT"
+}
