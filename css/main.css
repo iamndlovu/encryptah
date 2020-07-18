@@ -1,0 +1,51 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body
+{
+	color: #fff;
+	background: #000B15;
+}
+
+header, footer	
+{
+	text-align: center;
+	background: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+header
+{
+	height: 6.6rem;
+}
+main
+{
+	padding: 1rem;
+	border:1px solid #000;
+	background: #000B15;
+	min-height: calc(100vh - (6.6rem + 4rem));
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+form textarea
+{
+	background: #000B15;
+}
+
+.btn
+{
+	margin-bottom: 1rem;
+}
+
+footer
+{
+	height: 4rem;
+}
