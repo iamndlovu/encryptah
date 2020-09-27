@@ -6,7 +6,6 @@ const check = setInterval(() => {
 	if(uPassword.value == plainPassword || uPassword.value == encryptedPassword) buildUI();
 }, 500);
 
-
 function buildUI() {
 	clearInterval(check);
 	document.querySelector('main').removeChild(document.querySelector('form'));
